@@ -82,8 +82,8 @@ We have installed the following Beats on these machines:
 - Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat: Monitors the log files, collects log events, and forwards them to Logstash for indexing. For example, it can collect information on both sucessful and failed login attempts including date, time, location, IP address etc.
-- Metricbeat: Collects metrics from the system and services running on the server and forwards them to Logstash for indexing. For example, it can collect metrics on CPU and memory usage.
+- **Filebeat**: Monitors the log files, collects log events, and forwards them to Logstash for indexing. For example, it can collect information on both sucessful and failed login attempts including date, time, location, IP address etc.
+- **Metricbeat**: Collects metrics from the system and services running on the server and forwards them to Logstash for indexing. For example, it can collect metrics on CPU and memory usage.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
